@@ -1,0 +1,29 @@
+Architectures: iphoneos-arm
+Codename: stable
+Components: main
+Date: Mon, 24 May 2021 17:16:32 +0000
+Description: Distribution for stable versions of Zebra
+Label: Zebra
+Origin: Zebra
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 827ddc9bc49ede862c8af05a0fb1df83            14181 Packages
+ 2fef0342805b61e513c9316b30fa9ee5             3484 Packages.xz
+ 141c669788c1efd52a645cdef14d6bf2             3354 Packages.zst
+ 4669a6bb2c22cf7c64a01254c18dd176              209 Release
+SHA1:
+ 9bbdb12e7cf8ac8d7b908557def6a521c841d122            14181 Packages
+ e68b7198a71fc3a4e81d727faf82ef38b944ec1e             3484 Packages.xz
+ aa04bf0ebeb63e36a2fa923b43fb346654040d71             3354 Packages.zst
+ 3cb1ae02e8e86367dc4b2873ba355ea85528cd69              209 Release
+SHA256:
+ fb63edbde902de67bccaf1c9dbfa19cc517af42b44016284c12b7e1afa7220f8            14181 Packages
+ 0f2360089ac7952b11cd340a31e9d080778b06c35a559ed01d1abb56c0edb78c             3484 Packages.xz
+ 8ad2d63dd744e055d5c90d962e5bbaa5feab7bd904b437a71b120ea76fe6004c             3354 Packages.zst
+ 055f98a5d80793d74d6f53be9869b2b7eebe1616c2dbfdbf7b3b5de382f24aeb              209 Release
+SHA512:
+ 15bfbe2f7ce6fb0cb825931582c4f1198851c6b1ab15dfaf6aa6e7aa2ea90037c40a5d560aef511389ce01b1e7e6e7fbe8f11bc6eff7d75de4bf8a99051e5d55            14181 Packages
+ 7082df70a3451cbcd3d3a369922db234528fc06a354241ff4c9bf806e7c4c6304339408736ddc93f07ff696329ef39e044a7fc439f7b1fd96bb2f344a2440c4e             3484 Packages.xz
+ 944b8a84329442d37d459335be1bb2b08e084f150cc594193e267bae09801b92cd7be4a2bebb251f013c0bb373ebc3bef92432cbf4fc0a44c5ea00643a27670b             3354 Packages.zst
+ 6eaace9243435383903c7b3dd7258d29a4dd9fd98706d473de125fbcf087e2dcca68def599733feaef8e0b516de3bb9bc7e18e1a9e5349be574bdcaecee4e458              209 Release

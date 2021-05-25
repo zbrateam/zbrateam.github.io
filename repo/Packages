@@ -1,0 +1,360 @@
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 48920
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.0.8_iphoneos-arm.deb
+Size: 13107842
+MD5sum: ce6b77354ca971b9fdeb38aa9568d51a
+SHA1: 37dddb979fd08ef41f42311374dba4ed05368b4e
+SHA256: 84c44b3b298dd7bf1a72b783b3a0028ad29b19b5c7c0aa7c1af48443653b2fa1
+SHA512: a09575ed311a607672d729f3a3d4308526494d6ed55f99a9fa3cb6fa34f636e0ea57deef5a68cfbd57b2f6b54bd53a1f554d28ca96078783a751ad620b1897a2
+Description: A Useful Package Manager
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.10
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58028
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.10_iphoneos-arm.deb
+Size: 18740142
+MD5sum: e614c48c76cdb3d391d6419ec0db8a41
+SHA1: 0f05956e553e56918811855b2ce927a1f080decc
+SHA256: a6489346fdfae7d34321ea810a25429141b522b420271c2ccc6c51855ad41f25
+SHA512: befa68c2ee53a7886217ebe9930ebc97418cbca3665ba3affb92395a0038ef06f96bd9caacff768d506e66a0916d12902627911874b0f8f193e3f02a866c035b
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.11
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58432
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.11_iphoneos-arm.deb
+Size: 19126008
+MD5sum: fb17c2b3fdb41329c0db518f481285c2
+SHA1: 05c0c4795496cb7295203485de722cb613fbf04e
+SHA256: 4c02e1d2103cf3e5fcd786ee208acaf19ac7192915adc92c04afa42a26af1fe1
+SHA512: b988b64c1867574517126660a9fe294c534cc2d497c43a012c71793f0c0be3d8b082c4b4fae0c11c82fa869205dd215ca733938ac8d685294f3250136bcbacc8
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.12
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58432
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+Size: 19126394
+MD5sum: c630ba6cb74ffb8d1e917557729767a6
+SHA1: 0e325b5135feb510f05a2bd14e6c9188258ffe81
+SHA256: 0801d19a17aefdb086edfe7214fd295d4af935473a4dadd312dadef08281409f
+SHA512: 1d6561bda67c9326ad2c3fcd9b9b933f8cc4aa5edb5343180a88371fb2dbb63bb4d931b7b1688824b465edae791dd81ae8a399fef0d6b1d6ef14b0dd81e2018e
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.13
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 59220
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.13_iphoneos-arm.deb
+Size: 19129546
+MD5sum: a0f38fd4aa1631871315fb2f357f2f46
+SHA1: b7237a515829ad5778278a6c7e1020b5c63236d0
+SHA256: ac0f9651e837705fdd766b708d24d502dbcd2ebfbf0e293d6c91b0c19eea9926
+SHA512: 6618fe8ebabba0dec49202942cab5392f86480811665fa8aefeb050e900e9a288aedb316302dc56073f1fa2d97e178561e7794ad29f8d900bba86d121f1a691e
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.14
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 59212
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.14_iphoneos-arm.deb
+Size: 19163414
+MD5sum: b5e679ffe8b9d6d49bcde0400bf68032
+SHA1: f6de3a1973fce5d57f4a0df49775b8ab343b75ea
+SHA256: f847a8bbcbf1c54f8439eb7ec6085a854f746974811fdfab571a87b9cf1348b0
+SHA512: f01da8b660c5475efd9d1fa0e7010dcc3b3083991fc4151744a97c09dcfa5863dab33e14d70c34dfb16de035398391eeb9fab10d6df3e1b81c5eadd3b5cda8ce
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.2
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.15
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58328
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.15_iphoneos-arm.deb
+Size: 19159146
+MD5sum: 26b417d613852bf95d310eac1399da48
+SHA1: 4ef3620b5f7ceb8b8401cb35800338bc6efb9293
+SHA256: 490c5c21af2a1a9e0352b7492cfc49707d2ef39933293229c565b156d695867b
+SHA512: 4beacc211911687af5ad3f617b58b8207acb22376dc43d1710aca003ad38e59719089a9f33ac3d4878c7fa0ef69d9490d47eebad9505bb46018c1d2406932bbe
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.2
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.16
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 59036
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.16_iphoneos-arm.deb
+Size: 19159478
+MD5sum: 55c69fae6e270753f423b2d588e30a22
+SHA1: 6d3458c4af0a9fdaa12244dd1e94bc9aef3bfead
+SHA256: 5cf743dbe2e3add6f1ab007cdb30ca4ef80b5184421eccaa1277a0cc1cd92692
+SHA512: 3b83e7d98cf6961761020fe61a2413e5228337a129504823c12e5a72cfdf1e20160f75c97aed88322986127327744eafa5c90ddd9c1291ee9b66e7d109e12aec
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.17
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58364
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.17_iphoneos-arm.deb
+Size: 19156976
+MD5sum: ab7b64c473cf951b23acc77bac0cd40d
+SHA1: 971290145bf05d2c72f1a64bbc1742eeb51efa91
+SHA256: fbe2269918c2258e5c7f97f27b8f45fe76cc94d2f8c56ee87795a827bd8f1959
+SHA512: 13d6fdea2d857cd697bb4235c3ba7ede9e506bdd933591638c945475c04dc463e1eb8d95e034677c5e1561d10284c2d08fb6c3ac036ead22a4edd21d5d5020db
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.18
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58332
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.18_iphoneos-arm.deb
+Size: 19150270
+MD5sum: ba4bf1d313ac50c522afc6376bdd3c04
+SHA1: 690322825ed543d7ee2c9e0f18ef2edaa2346c5c
+SHA256: 50c315a3df7686cb1014475c6fc7532e094ced032e1d7dbef8946799f1b483de
+SHA512: 140e1022a29e948af9cc741e34fe6d7dcd7bffc9f330d8d3d467df58660c922dd49d06860be0f4cedb212741709c9effc8a667cf1d34c8b2c620a5d86be448ba
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57672
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.1_iphoneos-arm.deb
+Size: 18635776
+MD5sum: 57fd685bea4b9b02d92829cb1c3abe3a
+SHA1: e9141d30c0ae1542c7ff687069cee1135f327ab1
+SHA256: 57aa9cf39c8121fb208d6134d2b115d8f06022034d6c111ea4e420e89a878943
+SHA512: 34033c4fae592c3532e87f5aaa6ce9537130a1ea6afb4f508d2b813ffed0774d500ad6b3341151b3c6a70cc3df222adf23f5fd86d1ed99fa22d25eb5ee4aff9e
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.2
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57704
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.2_iphoneos-arm.deb
+Size: 18638396
+MD5sum: 07b213808bf0ad4f8925480265009628
+SHA1: 89f9f3bb019697c662b76a22fa0d27c97d4f0222
+SHA256: f4631d4b9451f21dcdc112ed2d45c78d3d55844a9f6c6c63d77e77636e12bf7c
+SHA512: ec5d437e7a2a62b85a956ce10245a830ad2ea7dd8ac61e89ecaa2b29818db9868da6f14899b2cf5fc46880e09cbd6ffdf9bcb5aa4ee300a632e461a30482fadc
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.3
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57704
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.3_iphoneos-arm.deb
+Size: 18640520
+MD5sum: 7edb471e54b85cb4e11bb8f8485fbe65
+SHA1: 200ac40c2bfaf5096f1b867a400fd456654c7387
+SHA256: aaa964e2595fc831dacd1de7dbea470cea6a4952a735568ac4b419ca32567cc2
+SHA512: c4748ef41bd3ec2398be7b27df4ad3863817b705a0336897ed5ba21866dd861076d3ea76dcdc2405cfe1122d90b86ef1bdc59beaa36632d8b73492255ee1b5ef
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57800
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.4_iphoneos-arm.deb
+Size: 18669780
+MD5sum: 04b014bf34fcfb1c406714554ba6cff9
+SHA1: ecaa415809266287934f628bb9ac1d19d85d4c22
+SHA256: 6efb238cee055bb17370fa2e6a5ab57d498d47f2a0ea793d57970a0cd35e866d
+SHA512: c2b1c19611ff798c146ea2bfc44bd2151d4456ba0a85f1c3f6ec28f7a8bb2d01d83ec28aaed45327de58ee11515a341891c71737e9c882ab0ad73945d9d53578
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.6
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57860
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.6_iphoneos-arm.deb
+Size: 18691230
+MD5sum: 9f924ef47001db683a957960455f95a4
+SHA1: eaf77a19f193b39cf9b4b846857f21b05f4aef4b
+SHA256: 24267e273fa6f4d01915d030276d0be7e6ff01c6767078682ad0f47df52b0f66
+SHA512: e2e9112bf5b9a9c8bee7522569bedb7e73c57080f8062d3676f65def401b484ad9fef5af3a636990bcb0f6a16fd9bad371675b2d3f4c9a3ecdda947534a73b73
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.7
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.7_iphoneos-arm.deb
+Size: 18691100
+MD5sum: 2362b64ca0112075defb394c39f92916
+SHA1: b7afe8e5b932db4a4ee60de103c63fa497ab4292
+SHA256: ff9443741b43f5afaa1414f8387ecbcc6a08093d3046f795b685307841197358
+SHA512: 6d8484867f443819a94ed3adf74d4b9db4c55f1b3df00010d3f3830682f3cfca933bc29688c05ec195333d8010c7e2a374cfda1992eab95c710afefdab8944d6
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.8
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.8_iphoneos-arm.deb
+Size: 18697612
+MD5sum: 4ffc1f10f42ac19eec3d20e986a43b7e
+SHA1: c79ada06afdc95454239d42ea1755296deaf95ea
+SHA256: 464470e51dee433e8451c55df3d77a20b976ccbfe1c9cbfa6314154dd4f8af09
+SHA512: b7b218c8e57a33a94a19042e5cbac5125a816150534fafaaece01a2b07f1737c0e737b8e0bbc9273a67f9ebb3666eecc4be8c2519cf3c9c469f4415e4d2009ef
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.9_iphoneos-arm.deb
+Size: 18705452
+MD5sum: ad04af790a9d99726971699230cfbbe2
+SHA1: 5329deed54340aeb4a451c229eaaa7b8916426a0
+SHA256: a52feb54524899559c3fec30370af36ab7ffff5cbe7159031bebbc645fefd047
+SHA512: a1138911e041bd34e24dc33999dbdc12bdaea3592005eb9a2eed3a57115b66dc7b35d44e07f27b3eff4a160e2b331a1ca2e6cf5dce30fa78a7b63244c4430f7b
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58444
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1_iphoneos-arm.deb
+Size: 18959112
+MD5sum: 003c9303048f1058b4aaae39de279b1c
+SHA1: 6eaa702a3030cf661556815d21d3758044c071b6
+SHA256: c7e2005c4629a6fffe33981fbcfa78c610876288d2153b2809df308cb4cad554
+SHA512: 4aa38bf124519a25c6aafd2e6217de3797b100f71238acc93f8058608e4397ebdcf8e51e38ec8d7d069ef800abded0a643b5913ab5446901023f48c96c7f26ab
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/beta/depictions/xyz.willy.Zebra/
+

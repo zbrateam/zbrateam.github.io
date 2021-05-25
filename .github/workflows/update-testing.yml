@@ -1,0 +1,28 @@
+name: Testing
+
+on:
+  push:
+    paths:
+      - 'beta/pool/**.deb'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2 
+
+    - name: Install Dependencies
+      run: sudo apt-get install apt-utils
+    
+    - name: Build Repo
+      run: |
+        cd beta
+        ./update_repo.sh
+
+    - name: Push Repo
+      run: |
+        git config --local user.email "getzbra@gmail.com"
+        git config --local user.name "Zebra-Bot"
+        git add .
+        git commit -m "Update Testing Repo" -a
+        git push

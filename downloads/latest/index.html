@@ -1,0 +1,27 @@
+<html>
+    <body onload="latestVersion();">
+        Downloading latest Zebra version. Click <a href="#" onclick="latestVersion()">here</a> if you are not redirected...
+    </body>
+    <script>
+        function latestVersion() {
+          getJSON(function (response) {
+            var release = JSON.parse(response);
+            var asset = release["assets"][0];
+            var downloadURL = asset["browser_download_url"];
+            window.location = downloadURL;
+          });
+        }
+    
+        function getJSON(callback) {
+          var xobj = new XMLHttpRequest();
+          xobj.overrideMimeType("application/json");
+          xobj.open('GET', 'https://api.github.com/repos/wstyres/Zebra/releases/latest', true);
+          xobj.onreadystatechange = function () {
+            if (xobj.readyState == 4 && xobj.status == "200") {
+              callback(xobj.responseText);
+            }
+          };
+          xobj.send(null);
+        }
+      </script>
+</html>
