@@ -1,29 +1,29 @@
 Architectures: iphoneos-arm
 Codename: testing
 Components: main
-Date: Tue, 25 May 2021 00:45:29 +0000
+Date: Tue, 25 May 2021 23:24:34 +0000
 Description: Distribution for beta versions of Zebra
 Label: Zebra
 Origin: Zebra
 Suite: testing
 Version: 1.0
 MD5Sum:
- eab4b481800ff0bac2c315c274b7f6df              860 Packages
- 857b6edb99378d850107d04068eebe53              616 Packages.xz
- 71067916aeb21dde67639c8f0fc7281c              547 Packages.zst
- 7afd7ddcf594ee70b07af2099cf8a3c8              209 Release
+ 636b2b4257a555d8209da115feb15480             1386 Packages
+ b7a66c2a59a8fb68a6bdd8ea0ed48dad              988 Packages.xz
+ 55ee94cbe819ec762459d47ff7328050              925 Packages.zst
+ e4015855019625fd6c8d94ca4703547b              209 Release
 SHA1:
- 4abbcca0741f077bfea7c84d5349e7a47e2b4091              860 Packages
- faf8d3d633540e2f856e54611476bab5a667fd33              616 Packages.xz
- 7eb1d524337be36e9ad0503b67604a6c30d26a65              547 Packages.zst
- e88f6838c3513fed5f10bc750135c13a1b10d0ac              209 Release
+ 796dfdff3e6091009303d949117868f59c0263d2             1386 Packages
+ c8586c498eff3f4f9ef2a3967e2c920921bb6148              988 Packages.xz
+ 26c7e1478b20c54219b913f3edf7a0b830e7a682              925 Packages.zst
+ e1e573de71163484a9851130aad5dd400a468bc7              209 Release
 SHA256:
- 7e6babbeec879efa85b2e8598e043c7f30d371da852e18743d484594604a45c4              860 Packages
- cab2eecb9676d73fb50f201f5e6af3831bc7d85d3184468bacad53b6354df744              616 Packages.xz
- 7c3f9f2f3c0005d215433b323c3e2e95a1b5ff47ca3239d032b09bac9d6ca5a8              547 Packages.zst
- 4cc443f8b35b09be85c91c393347c94c7b790cab8db1d4388da8fcb559288256              209 Release
+ cd2674b3e014fcb3232fb9cf5d7362d1d52da407aa4787d2ccd94c4d7196bfd5             1386 Packages
+ 78dde1243c18bd5dac8bfc8a2f7f0b78e4dcf56933a4217d42ebed3492725a37              988 Packages.xz
+ e10810cd001cdcf90ff32c87c8e8f58beac8358e30c7b3b8b079ba208ba02cae              925 Packages.zst
+ a92c509a41b2ef2fef2b151aa2830120f5ab95af94800e77571a1218a59e4357              209 Release
 SHA512:
- 692770fd3cf5e6dac403bf52473d6e6a5b39fc6716ea84825b65d2d04dd1d31e5bf60427ef67f7b39eef4c2abf94cedbaff4415668c846e4ed398cce90323cda              860 Packages
- de89ff748622de36c7d8c9afaa5bc4e533fa4cee7cc57bf567b8f7616fb402986f42c88c3622a560527d3ae767bd9fc987f3a68c500cfbdcbc4de5ca41539c00              616 Packages.xz
- 552e7e98db42d11f449b33bd319742633592cf4587007680363840110b6b806da3902638674550f40145e195edb4c8b1481c92e176c6dcdf708823aba9e6e17c              547 Packages.zst
- 3ffc042a299190a24b55be1a68c3fea44ca9c21992be7abcb9ea7356d46c266e9a545ddfd2f31ca131344ae47c7e1eb34f5b5be49598dde9a42f110f6ce9a8df              209 Release
+ be08ee0961d54a36f07c1bf98e8f61a402d87ebf1b49c157d01b4dc178d7653a9f0a35812aa52821211a2ae59a0e280c09d7c69ddf96c4d1a5879a4e32b4e7f5             1386 Packages
+ 708cd868640892454bb88dd22ab0f4a5affddae55773cf4346c1f79544098f167e56a0bf42e3485fd0907f525ebde8e665702ead71fd3578b7ca5ee954739353              988 Packages.xz
+ 1ef583ab7d1d0b9b957deebddd6e6d952203d82e701367a78f5331703f88b7e1b97de8fca2f4aba3b433cdbf3d7a238a848244970674797956b90520f5ac6142              925 Packages.zst
+ 8ba388a369f6493012872f392a5c333bccf0993fbdf8309de216eba5b49471fa938c06fe3ffabba515831ad9ae2026e5f482701987e6cdc84f856dd7f7eea4b5              209 Release

@@ -1,20 +1,26 @@
-Package: xyz.willy.zebra
+Package: xyz.willy.zebralpha
 Architecture: iphoneos-arm
-Version: 1.2~beta9a
+Version: 2.0~alpha1a
 Section: Packaging
 Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 34668
-Depends: dpkg, uikittools, firmware (>= 11.0)
-Filename: pool/xyz.willy.zebra_1.2~beta9a_iphoneos-arm.deb
-Size: 13824842
-MD5sum: 04b97d9afc267c014e2acd90865ad25d
-SHA1: d0ab416db24c71b6ec9754bbf4d5d718f8008752
-SHA256: 822afc7db984c60ef24bd67d69b09b04853fb3afe470ecbed9031f9cdbbf8556
-SHA512: fdde3a86b4e23120fa7507c9f83fe0d8f1dec995f0a71c9337ed9fdb93440b035331ecf44919fe9fb1a039f95a7acb9280d4dc388bfb33a7c34f74726daa6b58
+Installed-Size: 23756
+Depends: uikittools, firmware (>= 12.0), libapt-pkg6.0 (>= 2.3.0), xyz.willy.zebra (<< 1.2)
+Filename: pool/xyz.willy.zebra_2.0~alpha1a_iphoneos-arm.deb
+Size: 9237620
+MD5sum: 36073157ae38c5f7682c50c51598e99b
+SHA1: ae8d575ee0604e3e06391c12412f69bb59c31641
+SHA256: dafad2d89130d309343c3463621ec4f4da34ebef4e8ef0aad57366adffbbe5a1
+SHA512: 01d993ebeed1dee437a360ece44461676f50449f81c718f770fd4401d0bb95ac9092c36ea70789adacfc8b20b68398fbf1a6cefc932567f2b1a488fd19df57f6
 Description: A Useful Package Manager
-Tag: compatible_min::ios11.0, compatible_max::ios14.3
-Name: Zebra
+ THIS IS AN ALPHA VERSION OF ZEBRA NOT MEANT TO BE USED AS YOUR ONLY PACKAGE MANAGER. DO NOT INSTALL IT IF YOU ARE NOT COMFORTABLE WITH ANY ISSUES THAT MAY ARISE WHILE USING IT.
+ .
+ Zebra is a package manager for jailbroken iOS devices.
+ .
+ It supports most modern iOS versions and provides most features that Cydia does, while being notably quicker.
+ .
+ If there are any issues you encounter, features you want to request, or anything else, please send me an email or file an issue on our GitHub and I'll quickly get back to you.
+Tag: compatible_min::ios12.0, compatible_max::ios14.3
+Name: Zebra (ALPHA)
 Author: Wilson Styres <wilson@styres.me>
-Depiction: https://getzbra.com/beta/depictions/xyz.willy.Zebra/
 Icon: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/icon.png
 
