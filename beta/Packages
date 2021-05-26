@@ -1,16 +1,16 @@
 Package: xyz.willy.zebralpha
 Architecture: iphoneos-arm
-Version: 2.0~alpha1a
+Version: 2.0~alpha1b
 Section: Packaging
 Maintainer: Wilson Styres <wilson@styres.me>
 Installed-Size: 23756
-Depends: uikittools, firmware (>= 12.0), libapt-pkg6.0 (>= 2.3.0), xyz.willy.zebra (<< 1.2)
-Filename: pool/xyz.willy.zebra_2.0~alpha1a_iphoneos-arm.deb
-Size: 9237620
-MD5sum: 36073157ae38c5f7682c50c51598e99b
-SHA1: ae8d575ee0604e3e06391c12412f69bb59c31641
-SHA256: dafad2d89130d309343c3463621ec4f4da34ebef4e8ef0aad57366adffbbe5a1
-SHA512: 01d993ebeed1dee437a360ece44461676f50449f81c718f770fd4401d0bb95ac9092c36ea70789adacfc8b20b68398fbf1a6cefc932567f2b1a488fd19df57f6
+Depends: uikittools, firmware (>= 12.0), libapt-pkg6.0 (>= 2.3.0), xyz.willy.zebra (= 1.1.18)
+Filename: pool/xyz.willy.zebra_2.0~alpha1b_iphoneos-arm.deb
+Size: 9238252
+MD5sum: 872de65d41b36666b6184b1d03ece9c7
+SHA1: 7b26f9a6e91bb115e1dfc05c940b504d43ef3750
+SHA256: b05d81b834648de7cedf941b2ee36fc208df74017e4e7aeecc4c37a11d065f6a
+SHA512: 1ebdbd8e38245d9d23012b5356474f84e1446916b26d2e9eee559815fe57a19d5ee37d5b4cf1ebf67cf5b151280eb1e4dbd3f4b81a4517df975a325f3b4a4e5f
 Description: A Useful Package Manager
  THIS IS AN ALPHA VERSION OF ZEBRA NOT MEANT TO BE USED AS YOUR ONLY PACKAGE MANAGER. DO NOT INSTALL IT IF YOU ARE NOT COMFORTABLE WITH ANY ISSUES THAT MAY ARISE WHILE USING IT.
  .
