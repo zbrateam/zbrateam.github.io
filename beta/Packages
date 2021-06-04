@@ -50,3 +50,31 @@ Name: Zebra (ALPHA)
 Author: Wilson Styres <wilson@styres.me>
 Icon: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/icon.png
 
+Package: xyz.willy.zebralpha
+Architecture: iphoneos-arm
+Version: 2.0~alpha3a
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 23704
+Depends: uikittools, firmware (>= 12.0), libapt-pkg6.0 (>= 2.3.0), xyz.willy.zebra (<= 1.1.99)
+Filename: pool/xyz.willy.zebra_2.0~alpha3a_iphoneos-arm.deb
+Size: 10025988
+MD5sum: 7f7a23e135088faad19f85a3586ad9ac
+SHA1: cf09e9a61455d4f9015ea6969e16862d5ec69235
+SHA256: 21aee4d84b7e425ee341e1b7f021a39865c25b369542319455d33bcb76d8413a
+SHA512: c95dc7584a3622e3b800d4d254133bc20e1173307e79cc89092d417b35e7f95f02364015584b636e9169234c580ae474ecf99561e79d0d015b5bdfec60e83e76
+Description: A Useful Package Manager
+ THIS IS AN ALPHA VERSION OF ZEBRA NOT MEANT TO BE USED AS YOUR ONLY PACKAGE MANAGER. DO NOT INSTALL IT IF YOU ARE NOT COMFORTABLE WITH ANY ISSUES THAT MAY ARISE WHILE USING IT.
+ .
+ THIS VERSION OF ZEBRA IS CURRENTLY ONLY AVAILABLE TO USERS WITH A PROCURSUS BOOTSTRAP.
+ .
+ Zebra is a package manager for jailbroken iOS devices.
+ .
+ It supports most modern iOS versions and provides most features that Cydia does, while being notably quicker.
+ .
+ If there are any issues you encounter, features you want to request, or anything else, please send me an email or file an issue on our GitHub and I'll quickly get back to you.
+Tag: compatible_min::ios12.0, compatible_max::ios14.3
+Name: Zebra (ALPHA)
+Author: Wilson Styres <wilson@styres.me>
+Icon: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/icon.png
+
