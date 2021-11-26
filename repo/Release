@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Fri, 26 Nov 2021 08:09:01 +0000
+Date: Fri, 26 Nov 2021 08:15:24 +0000
 Description: Distribution for stable versions of Zebra
 Label: Zebra
 Origin: Zebra
@@ -11,19 +11,19 @@ MD5Sum:
  8d0dcba3443b9b2919df34e4b76d0773            17174 Packages
  292510f583161ffb87219e071dfbdfe7             4128 Packages.xz
  d64d0bf6d41c6738bf9d0265caa89ded             3973 Packages.zst
- fac9a840131a13f683143278b4ac95b0              209 Release
+ 54b0fc4d9d2bcea773aa8a5a9a59562d              209 Release
 SHA1:
  8249867d86583b684e46b0fd49181cbb9221717c            17174 Packages
  b5f98ff58991b323691344632512cd82b55eaa00             4128 Packages.xz
  9376881283c1f5f0fd020ebe7e4e2aaaf8638b5d             3973 Packages.zst
- 815edb4d4cadfa43ed8dc64661f1e823152fb662              209 Release
+ 273d337330bd61e9a9f5236995dc8591c2767966              209 Release
 SHA256:
  36a2b1cf06e972898d1e1409176e4c8ecddfee7fbf22c63f91ef1a8ff7668c7d            17174 Packages
  3664e213e923dc445e2262b7cc39dfe1a614ac5dbe5a889fcd0df7545689d13d             4128 Packages.xz
  cb6ead35658dae4392fa82a00cb9c391b6c3c96ed78531927c8084d3b9ef9ef8             3973 Packages.zst
- 25bf728af477414cd839467d6dcdc591a5d65f86071220b47181046fd7ba7770              209 Release
+ 3ed1f4596c000f2c02c636722fc506ee6193ed5c233aae544e5d8b76f8d05534              209 Release
 SHA512:
  1bf0f76f723b29772e603070b1b81f0338d33b84393c9e555f336252a80d73147a5508dc7f4a9fad194bbc403129125a384b09f8e76745696630c80e01d8a867            17174 Packages
  29d6fad92b1d8d4f66bd764eb525eee2b2e5d0b1beb7a699ad8c60c9923ab634ef80f10ed530ec7e1e262a97c458f35469a25e2a6e2ec159f814f87ea9727231             4128 Packages.xz
  5e9968472a4b394764e8310275ba2dfd3358c92e55ffc2bb618df099b26bd537a4a825b790eb23258b9ba01810054ac833b402222b9fec0b54e79b47d4fde47d             3973 Packages.zst
- fab39a3e8d9044a780a6a6579382bc8bb82661da022117c980018990edcef87fb409e292f14f31e7d3678011b2634ad051706d225a139556f7526621fe2c3c04              209 Release
+ 3be56357f10c0b9176e6c79f17fa85a33ef8f6dbeb0b8ae1ba4e9b3c13d3b582785d612f4a39b918466d9296daf59338931543aba0d6c37c9b473314f5925c5d              209 Release
