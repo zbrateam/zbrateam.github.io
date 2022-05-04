@@ -10,7 +10,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag("js", new Date());
-
     gtag("config", "G-JL6ZQBQJCE");
   </script>
 
@@ -34,7 +33,7 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:site" cojntent="@getZebra">
+  <meta property="twitter:site" content="@getZebra">
   <meta property="twitter:title" content="Zebra">
   <meta property="twitter:description"
     content="A modern, fast, and powerful open-source package manager for jailbroken iOS devices.">
@@ -44,12 +43,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="./css/main.css">
   <script>
-    function download() {
+    function download(e) {
       let isIOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) && !window.MSStream;
-      if (isIOS) {
-        window.location = "cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/";
-      }
-      else {
+      if (!isIOS) {
+        e.preventDefault();
         alert("Add https://getzbra.com/repo/ to your package manager’s sources, or visit this website from your jailbroken iOS device and try again.");
       }
     }
@@ -73,13 +70,18 @@
           <h1 class="title">Zebra</h1> <!-- Free My Boy AUPM -->
           <h3 class="subtitle">A modern, fast, and powerful open-source package manager for jailbroken iOS devices.</h3>
           <div class="button-container">
-            <button type="button" onclick="download()" class="btn btn-zeeb btn-lg">Download Now</button>
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/&amp;package=xyz.willy.zebra" id="btn-download" class="btn btn-zeeb btn-lg">Download Now</a>
+            <script>document.querySelector("#btn-download").onclick = download</script>
             <div class="version-container">
-              <p style="color: rgba(255, 255, 255, 0.80);margin: 0;" id="versionNumber">&nbsp;</p>
+              <p style="color: rgba(255, 255, 255, 0.80); margin: 0;" id="versionNumber">&nbsp;</p>
               <script>getVersion()</script>
               <input class="input" type="text" onclick="setSelectionRange(0,25)" placeholder="https://getzbra.com/repo/" value="https://getzbra.com/repo/" readonly>
             </div>
           </div>
+          <p class="footnote" style="margin-top: 1rem;">
+            Jailbreak required.
+            <a href="https://ios.cfw.guide/" class="white-tinted" style="text-decoration: underline;">How to jailbreak</a>
+          </p>
         </div>
       </div>
       <div class="col-md-auto mx-auto">
@@ -88,14 +90,15 @@
         </div>
       </div>
     </div>
-    <hr style="background-color:rgba(255,255,255,0.25);">
+    <hr style="background-color: rgba(255, 255, 255, 0.25);">
     <div class="row align-items-center h-100" style="padding-bottom: 10px;">
       <div class="col text-md-left text-center">
-        <p style="color:white;">
+        <p class="footnote">
           &copy; 2018-<script>document.write(new Date().getFullYear())</script> Zebra Team.
-          Originally developed by <a class="white-tinted" style="text-decoration: underline;"
-            href="https://styres.me">Wilson Styres</a> and <a class="white-tinted" style="text-decoration: underline;"
-            href="https://andrew-abosh.com">Andrew Abosh</a>
+          Originally developed by
+          <a class="white-tinted" style="text-decoration: underline;" href="https://styres.me">Wilson Styres</a>
+          and
+          <a class="white-tinted" style="text-decoration: underline;" href="https://andrew-abosh.com">Andrew Abosh</a>.
         </p>
       </div>
       <div class="col-md-auto text-center">

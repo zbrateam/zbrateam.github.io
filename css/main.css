@@ -32,34 +32,6 @@ body {
   padding-bottom: 25px;
 }
 
-@media (min-width: 768px) {
-	.info-container {
-	 	padding-top: 10em;
-	 	padding-bottom: 0px;
-	}
-
-	.subtitle {
-		max-width: 25em;
-		margin-left: 0;
-	}
-
-	.input {
-		text-align: left !important;
-    width: 110% !important;
-  }
-
-  .button-container {
-    display: inline-flex !important;
-    flex-direction: row !important;
-  }
-
-  .version-container {
-    margin-left: 10px !important;
-    flex-direction: row;
-    margin-top: 0px !important;
-  }
-}
-
 .screenshot {
   max-height: 47em;
   margin-top: 1em;
@@ -77,7 +49,7 @@ body {
 }
 
 .white-tinted {
-  color: rgb(210, 210, 210) !important;
+  color: #d2d2d2 !important;
 }
 
 .btn-zeeb {
@@ -106,7 +78,7 @@ body {
 }
 
 .button-container {
-  display: block`;
+  display: block;
   flex-direction: column;
 }
 
@@ -125,6 +97,40 @@ body {
 	color: rgba(255, 255, 255, 0.40);
 }
 
+.footnote {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 0.8em;
+}
+
 ::selection {
-    background-color: rgba(102, 128, 249, 0.25);
+  background-color: rgba(102, 128, 250, 0.5);
+}
+
+@media (min-width: 768px) {
+	.info-container {
+	 	padding-top: 10em;
+	 	padding-bottom: 0px;
+	}
+
+	.subtitle {
+		max-width: 25em;
+		margin-left: 0;
+	}
+
+	.input {
+		text-align: left;
+    width: 110%;
+  }
+
+  .button-container {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .version-container {
+    margin-left: 1rem;
+    flex-direction: row;
+    margin-top: 0px;
+  }
 }
