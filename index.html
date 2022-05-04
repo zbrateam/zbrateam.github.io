@@ -59,6 +59,13 @@
         `);
       }
 
+      // Don’t immediately close the menu on click
+      $("#open-in-menu").click((e) => {
+        if (e.target.tagName !== "A") {
+          e.stopPropagation();
+        }
+      });
+
       window.fetch && fetch("https://api.github.com/repos/zbrateam/Zebra/releases/latest")
         .then((res) => res.json())
         .then((data) => {
@@ -94,8 +101,6 @@
               <input class="input" type="text" onclick="setSelectionRange(0,25)" placeholder="https://getzbra.com/repo/" value="https://getzbra.com/repo/" readonly>
             </div>
           </div>
-          <p class="footnote" style="margin-top: 1rem;">
-          </p>
         </div>
       </div>
       <div class="col-md-auto mx-auto">
