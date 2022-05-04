@@ -42,22 +42,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="./css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js" integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-    function download(e) {
+    $(() => {
       let isIOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) && !window.MSStream;
-      if (!isIOS) {
-        e.preventDefault();
-        alert("Add https://getzbra.com/repo/ to your package manager’s sources, or visit this website from your jailbroken iOS device and try again.");
+      if (isIOS) {
+        $("#open-in-menu").html(`
+          <a class="dropdown-item" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/&amp;package=xyz.willy.zebra">Open in Cydia</a>
+          <a class="dropdown-item" href="sileo://package/xyz.willy.zebra">Open in Sileo</a>
+          <div class="dropdown-divider"></div>
+          <div class="dropdown-header">
+            Jailbreak required.
+            <a href="https://ios.cfw.guide/" class="text-muted" style="text-decoration: underline;">Learn more</a>
+          </div>
+        `);
       }
-    }
 
-    function getVersion() {
       window.fetch && fetch("https://api.github.com/repos/zbrateam/Zebra/releases/latest")
         .then((res) => res.json())
         .then((data) => {
-          document.querySelector("#versionNumber").textContent = `Version ${data.tag_name.replace(/^v/, "")}`;
+          $("#versionNumber").text(`Version ${data.tag_name.replace(/^v/, "")}`);
         });
-    }
+    });
   </script>
 </head>
 
@@ -70,17 +77,24 @@
           <h1 class="title">Zebra</h1> <!-- Free My Boy AUPM -->
           <h3 class="subtitle">A modern, fast, and powerful open-source package manager for jailbroken iOS devices.</h3>
           <div class="button-container">
-            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/&amp;package=xyz.willy.zebra" id="btn-download" class="btn btn-zeeb btn-lg">Download Now</a>
-            <script>document.querySelector("#btn-download").onclick = download</script>
+            <div class="dropdown">
+              <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/&amp;package=xyz.willy.zebra" id="btn-download" class="btn btn-zeeb btn-lg" data-toggle="dropdown" aria-expanded="false">
+                Download Now
+              </a>
+              <div id="open-in-menu" class="dropdown-menu" aria-labelledby="btn-download">
+                <div class="dropdown-header" style="white-space: normal;">
+                  <span style="white-space: nowrap;">Add <strong>https://getzbra.com/repo/</strong></span>
+                  to your package manager’s sources, or visit this website from your jailbroken iOS device and try again.
+                  <a href="https://ios.cfw.guide/" class="text-muted" style="text-decoration: underline;">Learn more</a>
+                </div>
+              </div>
+            </div>
             <div class="version-container">
               <p style="color: rgba(255, 255, 255, 0.80); margin: 0;" id="versionNumber">&nbsp;</p>
-              <script>getVersion()</script>
               <input class="input" type="text" onclick="setSelectionRange(0,25)" placeholder="https://getzbra.com/repo/" value="https://getzbra.com/repo/" readonly>
             </div>
           </div>
           <p class="footnote" style="margin-top: 1rem;">
-            Jailbreak required.
-            <a href="https://ios.cfw.guide/" class="white-tinted" style="text-decoration: underline;">How to jailbreak</a>
           </p>
         </div>
       </div>

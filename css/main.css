@@ -52,7 +52,9 @@ body {
   color: #d2d2d2 !important;
 }
 
-.btn-zeeb {
+.btn-zeeb,
+.dropdown-item.active,
+.dropdown-item:active {
   color: #fff;
   background-color: #6680F9;
   border-color: #6680F9;
