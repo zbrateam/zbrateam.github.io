@@ -6,10 +6,11 @@ for arch in iphoneos-arm; do
     binary=binary-${arch}
     contents=Contents-${arch}
     mkdir -p ${binary}
-    rm -f {Release{,.gpg},${binary}/{Packages{,.xz,.zst},Release{,.gpg}}}
+    rm -f {Release{,.gpg},${binary}/{Packages{,.bz2,xz,.zst},Release{,.gpg}}}
 
     $FTPARCHIVE packages pool > \
             ./Packages 2>/dev/null
+    bzip2 -c9 ./Packages > ./Packages.bz2
     xz -c9 ./Packages > ./Packages.xz
     zstd -q -c19 ./Packages > ./Packages.zst
 
