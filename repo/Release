@@ -1,7 +1,7 @@
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Codename: stable
 Components: main
-Date: Tue, 13 Dec 2022 06:56:22 +0000
+Date: Tue, 13 Dec 2022 07:06:37 +0000
 Description: Distribution for stable versions of Zebra
 Label: Zebra
 Origin: Zebra
@@ -12,22 +12,22 @@ MD5Sum:
  2fa44c7c8524042d8c9349c4ed9db7b3             1537 Packages.bz2
  6c8e78dc4f4cdd97219be710e926ee8e             1328 Packages.xz
  d9be87dcbe74a9748a9debaa5511a9c4             1277 Packages.zst
- 67231d0663937eda1545f96c615116d5              209 Release
+ d210a1a76ecb8756c8cb6517cb82c6b9              224 Release
 SHA1:
  3ca775d6b68c370a5bed3ca991bf06bf30f1e10b             4387 Packages
  a2df480b804c7172c71e03fc5d3b9fb3bbff3325             1537 Packages.bz2
  0fd64821b19d551613c1cf7b188243665ed13e65             1328 Packages.xz
  c018b27b366af2ce6d080667cdf9851d399bdd5c             1277 Packages.zst
- 68d1c3a305e3b80346698249cdf4d31fa2a3676b              209 Release
+ 754a65c0b5fd843d9b976bc33a7ce1b482ce71b7              224 Release
 SHA256:
  c0c5f798e76ccd4f3a9d314d968309e07d524cfe1ae0014e0855e5db7733f40d             4387 Packages
  f0f23f7a8344d7044caf2f3d1c6e8e3cd153ec324fcc48d4d2ed35c84070db46             1537 Packages.bz2
  85807425fcfd7dd2f3695c5c8918e7a30626bcead7acdf4a47d8a0e65f3b3474             1328 Packages.xz
  7a4e52cd1fc666e1ec5a2840a94d160af6e918ba3a80328a0f00e3f8e5223502             1277 Packages.zst
- 7d0d98307e85bdfedc668f9c1eeb6ce5cb581f69fef2ba08f9f131345cba8ef1              209 Release
+ 26844066480afdd27db88a31d83f8b00838ed6bf72969c91ccf0194fa3d606b0              224 Release
 SHA512:
  ede677483e392fbc48ad9461a7af3b96a65bcc6a24f6b0e6e8e6e3e5bdbdaa91b8118dbc5baabf142a0612cf30e0cbe310fd1a38bd93121368a2bfd90b56ff49             4387 Packages
  7bff1baa3726217b07b325fb861bf9c482eba83eebcef00ac7605ed43c9102fb485b2e893605eee7b0f11cd915d9535d65f1fbb6553be896e0e0f3c4e91d9529             1537 Packages.bz2
  6af19a786e693ce55f68d2d55b8ba5d6ab7c68dfec52686687d198dda27e0baf083bc9078278e243f838cbd0e7060fca67cae1ab9b727cd3a2a5b9e9a90f9150             1328 Packages.xz
  084a38fb930ae3398f1f9ea1a164b47ca59069fa8bc91a4eba694af34a09ee0c9c2bd7f36c394f185d873f2a4713561245cecd0fb8eca50bd6efadac02255425             1277 Packages.zst
- 3bd197e817040415a6d6d0d0aecd0bc3e9926611593f7c1fa04f47901d0d8f80cf47eaeff82d5437a2d4ffbeeb9bf96ad06992d86d5bda2f87779f6372a2b34f              209 Release
+ d7f04c08140c43f172bd599fedc925d505d24c07218254b76aa67ba14b9b69d11cd571dbbec7c24a83b4e77dd399470f2fdae370594478b74289a916e6ae5d09              224 Release
