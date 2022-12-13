@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Sat, 25 Jun 2022 14:38:03 +0000
+Date: Tue, 13 Dec 2022 06:56:22 +0000
 Description: Distribution for stable versions of Zebra
 Label: Zebra
 Origin: Zebra
 Suite: stable
 Version: 1.0
 MD5Sum:
- bf2bf21aa7119c05e6425ec4e6e01d2c             2632 Packages
- 053ab2846288ce17ddf84818c4fdf4cd             1089 Packages.bz2
- b801f816439a14071d3fb1315f1bd166              992 Packages.xz
- 8b07e7971597358d14331442f2e36d18              933 Packages.zst
- d127681a4026647fdd0f59a80cb9b66c              209 Release
+ 9066f1b781b283c67f2ac6b0689a58f7             4387 Packages
+ 2fa44c7c8524042d8c9349c4ed9db7b3             1537 Packages.bz2
+ 6c8e78dc4f4cdd97219be710e926ee8e             1328 Packages.xz
+ d9be87dcbe74a9748a9debaa5511a9c4             1277 Packages.zst
+ 67231d0663937eda1545f96c615116d5              209 Release
 SHA1:
- c9d14cb41b69a704d7e51dba1c1e27484b1c0993             2632 Packages
- 075b3a5890238ec604172e81742945053e536baa             1089 Packages.bz2
- 168df206b9c2a17c5ff746bb191c113d089b020e              992 Packages.xz
- 63882ff75ce7248a546c602e23be1d31dfc26bcc              933 Packages.zst
- 4d22b27b709ef694d61184e238062c530ce189b5              209 Release
+ 3ca775d6b68c370a5bed3ca991bf06bf30f1e10b             4387 Packages
+ a2df480b804c7172c71e03fc5d3b9fb3bbff3325             1537 Packages.bz2
+ 0fd64821b19d551613c1cf7b188243665ed13e65             1328 Packages.xz
+ c018b27b366af2ce6d080667cdf9851d399bdd5c             1277 Packages.zst
+ 68d1c3a305e3b80346698249cdf4d31fa2a3676b              209 Release
 SHA256:
- 2af2609fec5b1ba1488bf89e0b38d4430c070c3b469648d72f97f5dec4cecd0c             2632 Packages
- cc0c19837995f7b1bb7f36cd4280fe6994b1cabc0584fffec06b49968521c478             1089 Packages.bz2
- f81c28766fb19683170315697c5255b6044e357a2b4bfe6396ba59e6611b76a0              992 Packages.xz
- fb1e3add87f0e7c4a0e87133ae2be56bd28c3e176af4dc24bfff42b414be1c5a              933 Packages.zst
- 28dcf32f7e36c0de8dc72d6b8989c3282d5aba7cd2cc1de86a85c3ac22a7e963              209 Release
+ c0c5f798e76ccd4f3a9d314d968309e07d524cfe1ae0014e0855e5db7733f40d             4387 Packages
+ f0f23f7a8344d7044caf2f3d1c6e8e3cd153ec324fcc48d4d2ed35c84070db46             1537 Packages.bz2
+ 85807425fcfd7dd2f3695c5c8918e7a30626bcead7acdf4a47d8a0e65f3b3474             1328 Packages.xz
+ 7a4e52cd1fc666e1ec5a2840a94d160af6e918ba3a80328a0f00e3f8e5223502             1277 Packages.zst
+ 7d0d98307e85bdfedc668f9c1eeb6ce5cb581f69fef2ba08f9f131345cba8ef1              209 Release
 SHA512:
- 7d818139a4bbb53588b533e0082ea0a51eafa1637ccce23771bce1efcb7911b500f57418aa0fa9d6365f0b18426b013bd51dc16e70be3cd450825fd81877ef19             2632 Packages
- a0f2283175bda16ccfa72dd50d06019de1e0771098795eafb19e405f762d46b4c537fd367ad70420c5e8191a745bc663ee6b0573e10e5b669b28652b286ae365             1089 Packages.bz2
- a4607a281ea3e4f5ad9c577272f2ddc05697dc65c2e69ed1d0618c63f4015625caaa06ceeb0cb6975539ae0d81af7dd0c13b5b93a18a8212c15cb606e19abc01              992 Packages.xz
- 490b0e227f3baca998c2f34abb76444e48d9c391d2e4a584e2b891c7393e72387c535e444f678691f5a5a2c646c736bc65c2e403846ff0fb36df51010dea4fab              933 Packages.zst
- c8b59ef75a86028c36dcc3db121793de02d6efd3e0395060b905aafcc10a592ec01e9de96347e52c07b311216d130feb2692bf5e8c79a921eee5d96bcca11b14              209 Release
+ ede677483e392fbc48ad9461a7af3b96a65bcc6a24f6b0e6e8e6e3e5bdbdaa91b8118dbc5baabf142a0612cf30e0cbe310fd1a38bd93121368a2bfd90b56ff49             4387 Packages
+ 7bff1baa3726217b07b325fb861bf9c482eba83eebcef00ac7605ed43c9102fb485b2e893605eee7b0f11cd915d9535d65f1fbb6553be896e0e0f3c4e91d9529             1537 Packages.bz2
+ 6af19a786e693ce55f68d2d55b8ba5d6ab7c68dfec52686687d198dda27e0baf083bc9078278e243f838cbd0e7060fca67cae1ab9b727cd3a2a5b9e9a90f9150             1328 Packages.xz
+ 084a38fb930ae3398f1f9ea1a164b47ca59069fa8bc91a4eba694af34a09ee0c9c2bd7f36c394f185d873f2a4713561245cecd0fb8eca50bd6efadac02255425             1277 Packages.zst
+ 3bd197e817040415a6d6d0d0aecd0bc3e9926611593f7c1fa04f47901d0d8f80cf47eaeff82d5437a2d4ffbeeb9bf96ad06992d86d5bda2f87779f6372a2b34f              209 Release
