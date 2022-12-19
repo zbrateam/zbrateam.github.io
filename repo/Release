@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: stable
 Components: main
-Date: Mon, 19 Dec 2022 02:26:21 +0000
+Date: Mon, 19 Dec 2022 02:30:25 +0000
 Description: Distribution for stable versions of Zebra
 Label: Zebra
 Origin: Zebra
 Suite: stable
 Version: 1.0
 MD5Sum:
- 392766de8acc7074ebb386def0628af8             5263 Packages
- 0679302ebc95d7ed0f0051850010e342             1685 Packages.bz2
- b8db3724bf02668aa329c146af7c6cc2             1496 Packages.xz
- fdc8c1ab221081b53eaf7f36443661f3             1443 Packages.zst
- 6afbd5ef6ad0ac7220cd5f4eed5e2f2c              224 Release
+ c67fbf9d5486a4bc17c54516ee80741e             6142 Packages
+ 55fc28274638a3f4f638d68d844b98c6             1838 Packages.bz2
+ 3a3fc70acaa66bb5d36a9715870e3c14             1652 Packages.xz
+ 9663655c2fd9d5455c920dcbff8bdd02             1591 Packages.zst
+ 57ab7b9340167f56835bdfb1fe78d2da              224 Release
 SHA1:
- 162ad365b627d22c05546fd041d39eb9711dd25b             5263 Packages
- 890367811a5f57a6d0ee78dd24640088795b7822             1685 Packages.bz2
- aa04758c5bbbb4d32e23a581b13d373951f7d1e6             1496 Packages.xz
- 58b02b39c899ca306d9d8485aacd40e0b3a22b77             1443 Packages.zst
- 208804ae4458dd5d1c78c887e4c126de92204c3f              224 Release
+ aa1027568931cb3aa6cdfa649a795237cbdce52a             6142 Packages
+ 920d28b5b70ef44033bb0bdb6092f7b7fed24440             1838 Packages.bz2
+ 6fd60f31fba1935b08dd899340d7b3716052cedb             1652 Packages.xz
+ 36f68168aff11d74ab4d914c00969f5de5232b90             1591 Packages.zst
+ 4df7789b0343bce579b29f5e12d08a37995638e3              224 Release
 SHA256:
- 278aa63fb694c108a9daa356a53b56e526483c6c1e6bcfe25c4edde0d74e8d99             5263 Packages
- d1d8786dce1b03919a05a06e182221a125915fde609ae0867ee6165060cfbef3             1685 Packages.bz2
- bb512317bf5525d72d5700dc5d394a187ff94aff0572e4722dcee15ec1e699ec             1496 Packages.xz
- d6f171d2c593470c97e7f7ad2722758e8f57a4f102087ba077eda9aca8aeedbc             1443 Packages.zst
- 193d01efca8c3b5e796803ac44aa6d111ab48476c56dda9df192e9fe62e740fc              224 Release
+ 94b8dbdb5ea3d8f2b4dadc5f634b4fd2404452f7fd2f8d31b8f5cbc751320966             6142 Packages
+ 26431af33787b483fff2bce5a53d54107d9d460aba4cadd937eb14fb8dbe0bc3             1838 Packages.bz2
+ 988bc1d6d3cf6e28ad9cd6eab9f1bb4162e1e16a123e25f3f91be8c67a746af9             1652 Packages.xz
+ d2eaf565e0bb21ccc054e4194e4dc5c1c824f0cfc7a11cf4a1536ad9ed595839             1591 Packages.zst
+ 627bbb19ab068d02e53271726a2bb5b445dea777787571c620c71ea1f926819b              224 Release
 SHA512:
- 78565e09d77f707038b7efc8ac4d202171b8bfab821ecd4aa860fe82ec4ec361a6a5d272cdeed43676f5eb32349126ce10a141d30209386998fb22151d914398             5263 Packages
- b270a96d29f2533add489ba0774405058f4f63152cfa62707ef3276f6904cdd85fa069ac8d3a17f9273986d256b597569f2262cbad9831007b39887529a25294             1685 Packages.bz2
- a2314a1c1f4d84476706a7535f4655af564f944ed2e26da64eb8f207395a23bb88639226964e0e904d697fa4d1ef31212cad2092c511bc396eaf8bd911a255bf             1496 Packages.xz
- dea68d0c89bcc01dc65fd4af6cfbe07a200ac233b6593413d03986733e7b740f482ffc3b42bf7aaf573d274d8c88fa6fe943589b627a0321241f6062bb2e5edc             1443 Packages.zst
- 2e76ef4a26e40c8158a3c4bc603544243642bae53a6f0d4ef5a3ce96f7394f68a0f1aac4177bf2f6898261bea3fbd6e0ccccfee7eceb3326ac31c8dd6be636a6              224 Release
+ f8b44b56e0d43b852ddc7ca26d3e09c75b91d9b8740b9899263da31344d1ec7138a015cb01079b72409688e8a8a432dc6720df01552c43e9318a34347463faf6             6142 Packages
+ 91de40e466674556df554a40e186a78eee5be917ed28e80f8b88a26ca3fac67d33c76013d54213207bebac5f13ed702c45785b3130b791aade8fa6f65e0fd606             1838 Packages.bz2
+ 8315a43c02410a7d0d06db2bdbb9c2ee37c0cd2ae05b8252ea89386db2ce28a7c045969dccb6679469b6e6f9dee704c3d4fba9fd15d3009d172f244b2f4b24da             1652 Packages.xz
+ 95fa6b595cd10790c9b9a1372cfb040659a00ab98ecceea7bd3b18b841fd8b1bfbb7aa9118a7d4ed8eb83fe49fc1346c7e616e2f59f47f2cbd14118fd85ac823             1591 Packages.zst
+ fa063831704817a60ec085a24c5283aace0e59407dd2f7fd18f2af19a4e1b31644416716848306ad69c2a8fe9a897fcc5942da368d21c5c9494e71c649243832              224 Release
