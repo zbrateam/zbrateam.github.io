@@ -250,3 +250,24 @@ Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm64
+Version: 1.1.33
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 6992
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: pool/xyz.willy.zebra_1.1.33_iphoneos-arm64.deb
+Size: 3616104
+MD5sum: 521e8b8fdc405cb18e6acc472ecc6c64
+SHA1: 31c761d4730dd64fea7d7c01c6dd7653d3713f25
+SHA256: b0551b80d465cd681f026861057a17f07184c6c008a8da414eb4e60d80a5262a
+SHA512: 774a2342874618f621fe5c727087941d1c8aa44564a0b8020b6b90aa6b11c53d25430b38305007674f6ab13ac82c7fee0567faceb52ece33fb16323352c21c19
+Description: A Useful Package Manager
+Tag: compatible::9.0-16.4
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
