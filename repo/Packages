@@ -234,14 +234,14 @@ Architecture: iphoneos-arm
 Version: 1.1.33
 Section: Packaging
 Maintainer: Zebra Team <team@getzbra.com>
-Installed-Size: 14920
+Installed-Size: 15032
 Depends: dpkg, uikittools, firmware (>= 9.0)
 Filename: pool/xyz.willy.zebra_1.1.33_iphoneos-arm.deb
-Size: 8386786
-MD5sum: 0379fa0e72cac88577fb0b9e7b3d7375
-SHA1: b49be6674e8d3196255ab775684bc6f4fbba668a
-SHA256: 3d4b98746f267a110e2e81eba81348da4f4980825a06c3d4bdae5a4a0b8066cf
-SHA512: 9e53eef49ffcd8d7749a91052676a23bbbf65c9fbc5ed82d3889ccb4bb31e5d7670929956685a6f706ed7354910f67911c8ddd1dcf10e2952b0107fef94e8095
+Size: 8451878
+MD5sum: f5af6ece8c26757ea243162d891b0e90
+SHA1: ba446a5b9a3bc07b030c030dc492661e62b27578
+SHA256: a25317704d993a2c5b591a34fc5fc46db48fa1830147a152f44be515fc6e869b
+SHA512: fcb06b8e77f4d360dd949362184a15f5fa13b2be8679ea3157906fa9e9abe5debd1de6e4965681f427ba5a9608c51d10d59a8287b5deb5d37ea2f85448631ebe
 Description: A Useful Package Manager
 Tag: compatible::9.0-16.4
 Name: Zebra
